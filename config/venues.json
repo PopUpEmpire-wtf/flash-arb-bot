@@ -1,0 +1,32 @@
+{
+  "chain_id": 8453,
+  "rpc": "https://base.publicnode.com",
+  "aave_pool": "0xA238Dd80C259a72e81d7e4664a9801593F98d1c5",
+  "aave_addresses_provider": "0xe20fCBdBfFC4Dd138cE8b2E6FBb6CB49777ad64D",
+  "weth": "0x4200000000000000000000000000000000000006",
+  "usdc": "0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913",
+  "uniswap_v2_router": "0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24",
+  "flash_fee_bps": 5,
+  "min_profit_usdc": 2,
+  "max_flash_usdc": 200000,
+  "venues": [
+    {
+      "name": "uniswap-v2",
+      "factory": "0x8909Dc15e40173Ff4699343b6eB8132c65e18eC6",
+      "pair": "0x88A43bbDF9D098eec7bCeda4e2494615dfD9bB9C",
+      "fee_bps": 30
+    },
+    {
+      "name": "pancake-v2",
+      "factory": "0x02a84c1b3BBD7401a5f7fa98a384EBC70bB5749E",
+      "pair": "",
+      "fee_bps": 25
+    },
+    {
+      "name": "sushi-v2",
+      "factory": "0x71524B4f93c58fcbF659783284E38825f0622859",
+      "pair": "",
+      "fee_bps": 30
+    }
+  ]
+}
